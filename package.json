@@ -1,0 +1,34 @@
+{
+  "name": "travel-planner-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LungeloDev/travel-planner-api.git"
+  },
+  "author": "Lungelo Mpanza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LungeloDev/travel-planner-api/issues"
+  },
+  "homepage": "https://github.com/LungeloDev/travel-planner-api#readme",
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "graphql": "^16.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
